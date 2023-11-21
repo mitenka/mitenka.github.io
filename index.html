@@ -1,123 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-
-    <title>@storybook/core-server - Storybook</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    
-    <link
-      rel="prefetch"
-      href="./sb-common-assets/nunito-sans-regular.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="prefetch"
-      href="./sb-common-assets/nunito-sans-bold.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link rel="stylesheet" href="./sb-common-assets/fonts.css" />
-
-    <link href="./sb-manager/runtime.js" rel="modulepreload" />
-
-    
-    <link href="./sb-addons/essentials-controls-0/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-actions-1/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-backgrounds-2/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-viewport-3/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-toolbars-4/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-measure-5/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/essentials-outline-6/manager-bundle.js" rel="modulepreload" />
-    
-    <link href="./sb-addons/themes-7/manager-bundle.js" rel="modulepreload" />
-       
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paysend 3.0 Storybook Coming Soon</title>
+    <!-- Include TuiCss via CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tuicss/dist/tuicss.min.css">
     <style>
-      #storybook-root[hidden] {
-        display: none !important;
-      }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            padding: 50px 20px;
+            margin-top: 50px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 1em;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #333;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #f1f1f1;
+        }
+        .footer {
+            margin-top: 100px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
     </style>
-
-    
-  </head>
-  <body>
-    <div id="root"></div>
-
-    
-    <script>
-      
-        
-          window['FEATURES'] = {
-  "warnOnLegacyHierarchySeparator": true,
-  "buildStoriesJson": false,
-  "storyStoreV7": true,
-  "argTypeTargetsV7": true,
-  "legacyDecoratorFileOrder": false
-};
-        
-      
-        
-          window['REFS'] = {};
-        
-      
-        
-          window['LOGLEVEL'] = "info";
-        
-      
-        
-          window['DOCS_OPTIONS'] = {
-  "defaultName": "Docs",
-  "autodocs": "tag",
-  "docsPage": true
-};
-        
-      
-        
-          window['CONFIG_TYPE'] = "PRODUCTION";
-        
-      
-        
-      
-        
-      
-    </script>
-    
-
-    <script type="module">
-      import './sb-manager/runtime.js';
-
-      
-      import './sb-addons/essentials-controls-0/manager-bundle.js';
-      
-      import './sb-addons/essentials-actions-1/manager-bundle.js';
-      
-      import './sb-addons/essentials-backgrounds-2/manager-bundle.js';
-      
-      import './sb-addons/essentials-viewport-3/manager-bundle.js';
-      
-      import './sb-addons/essentials-toolbars-4/manager-bundle.js';
-      
-      import './sb-addons/essentials-measure-5/manager-bundle.js';
-      
-      import './sb-addons/essentials-outline-6/manager-bundle.js';
-      
-      import './sb-addons/themes-7/manager-bundle.js';
-      
-    </script>
-
-    <link href="./sb-preview/runtime.js" rel="prefetch" as="script" />
-  </body>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Paysend 3.0 Storybook!</h1>
+        <p>Discover the future of digital payments with our upcoming Storybook.</p>
+        <a href="#" class="btn">Learn More</a>
+        <div class="footer">
+            <p>This page was crafted with <a href="https://www.jsdelivr.com/package/npm/tuicss" target="_blank">TuiCss</a>.</p>
+            <p>Stay tuned for updates and more exciting features!</p>
+        </div>
+    </div>
+</body>
 </html>
+

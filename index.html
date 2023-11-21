@@ -11,8 +11,8 @@
             margin: 0;
             padding: 0;
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #6e8efb, #a777e3);
-            color: white;
+            background: #e0e0e0; /* Grayscale background */
+            color: #333; /* Dark text for contrast */
             text-align: center;
         }
         .container {
@@ -22,10 +22,12 @@
         h1 {
             font-size: 2.5em;
             margin-bottom: 0.5em;
+            color: #222; /* Slightly darker for the title */
         }
         p {
             font-size: 1.2em;
             margin-bottom: 1em;
+            color: #555; /* Lighter gray for text */
         }
         .btn {
             display: inline-block;
@@ -36,6 +38,7 @@
             text-decoration: none;
             font-weight: bold;
             transition: background-color 0.3s ease;
+            border: 1px solid #ccc; /* Border for the button */
         }
         .btn:hover {
             background-color: #f1f1f1;
@@ -43,7 +46,13 @@
         .footer {
             margin-top: 100px;
             font-size: 0.9em;
-            opacity: 0.8;
+            color: #666; /* Footer text in lighter gray */
+        }
+        a, a:visited {
+            color: #007bff; /* Keeping the links colored for accessibility */
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -59,4 +68,3 @@
     </div>
 </body>
 </html>
-
